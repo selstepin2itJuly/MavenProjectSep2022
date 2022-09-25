@@ -11,6 +11,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtility {
 
+	/**
+	 * Get Cell by Value
+	 * @throws IOException
+	 */
 	
 	public static void getCellValueByRow() throws IOException
 	{
@@ -51,6 +55,10 @@ public class ExcelUtility {
 		//return str;
 	}
 	
+	/*
+	 * 
+	 * get cell value by row and col
+	 */
 	public static void getCellValueByRowCol(int r, int c) throws IOException
 	{
 		String excelfile = "./src/main/java/config/TestData.xlsx";
@@ -78,6 +86,9 @@ public class ExcelUtility {
 		System.out.println(str);
 	}
 	
+	/*
+	 * get cell value by value in row
+	 */
 
 	public static void getCellValueByRowName(String s) throws IOException
 	{
